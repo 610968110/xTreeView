@@ -45,19 +45,19 @@ public class MainActivity extends AppCompatActivity {
 
     private void initDatas() {
         // id , pid , label , 其他属性
-        mDatas.add(new FileBean(1, 0, new ItemBean("文件")));
-        mDatas.add(new FileBean(2, 1, new ItemBean("游戏")));
-        mDatas.add(new FileBean(3, 1, new ItemBean("文档")));
-        mDatas.add(new FileBean(4, 1, new ItemBean("程序")));
-        mDatas.add(new FileBean(5, 2, new ItemBean("war3")));
-        mDatas.add(new FileBean(6, 2, new ItemBean("刀塔传奇")));
+        mDatas.add(new FileBean(1 + "", 0 + "", new ItemBean("文件")));
+        mDatas.add(new FileBean(2 + "", 1 + "", new ItemBean("游戏")));
+        mDatas.add(new FileBean(3 + "", 1 + "", new ItemBean("文档")));
+        mDatas.add(new FileBean(4 + "", 1 + "", new ItemBean("程序")));
+        mDatas.add(new FileBean(5 + "", 2 + "", new ItemBean("war3")));
+        mDatas.add(new FileBean(6 + "", 2 + "", new ItemBean("刀塔传奇")));
 
-        mDatas.add(new FileBean(7, 4, new ItemBean("面向对象")));
-        mDatas.add(new FileBean(8, 4, new ItemBean("非面向对象")));
+        mDatas.add(new FileBean(7 + "", 4 + "", new ItemBean("面向对象")));
+        mDatas.add(new FileBean(8 + "", 4 + "", new ItemBean("非面向对象")));
 
-        mDatas.add(new FileBean(9, 7, new ItemBean("C++")));
-        mDatas.add(new FileBean(10, 7, new ItemBean("JAVA")));
-        mDatas.add(new FileBean(11, 7, new ItemBean("Javascript")));
-        mDatas.add(new FileBean(13, 8, new ItemBean("C")));
+        mDatas.add(new FileBean(9 + "", 7 + "", new ItemBean("C++")));
+        mDatas.add(new FileBean(10 + "", 7 + "", new ItemBean("JAVA")));
+        mDatas.add(new FileBean(11 + "", 7 + "", new ItemBean("Javascript")));
+        mDatas.add(new FileBean(13 + "", 8 + "", new ItemBean("C")));
     }
 }

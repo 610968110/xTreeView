@@ -108,3 +108,19 @@ public class SimpleTreeAdapter<T> extends TreeListViewAdapter<T, ItemBean>
 ````
 
 到此完成。
+
+三、其他用法
+====
+有些时候，id和父id并不是int类型，而是一些字符串，那么我们可以用@TreeNodeStringId和@TreeNodeStringPid去标记。
+````Java
+    /**
+     * 自己的id
+     */
+    @TreeNodeStringId
+    private String _id;
+    /**
+     * 父id
+     */
+    @TreeNodeStringPid
+    private String parentId;
+````

@@ -1,9 +1,9 @@
 package lbx.xtreeview;
 
 import lbx.xtreeviewlib.iinterface.TreeCloseImgResId;
-import lbx.xtreeviewlib.iinterface.TreeNodeId;
 import lbx.xtreeviewlib.iinterface.TreeNodeLabel;
-import lbx.xtreeviewlib.iinterface.TreeNodePid;
+import lbx.xtreeviewlib.iinterface.TreeNodeStringId;
+import lbx.xtreeviewlib.iinterface.TreeNodeStringPid;
 import lbx.xtreeviewlib.iinterface.TreeOpenImgResId;
 
 /**
@@ -14,13 +14,13 @@ public class FileBean {
     /**
      * 自己的id
      */
-    @TreeNodeId
-    private int _id;
+    @TreeNodeStringId
+    private String _id;
     /**
      * 父id
      */
-    @TreeNodePid
-    private int parentId;
+    @TreeNodeStringPid
+    private String parentId;
     /**
      * 实体类
      */
@@ -37,7 +37,7 @@ public class FileBean {
     @TreeOpenImgResId
     private int img1 = R.drawable.bottom;
 
-    public FileBean(int _id, int parentId, ItemBean name) {
+    public FileBean(String _id, String parentId, ItemBean name) {
         super();
         this._id = _id;
         this.parentId = parentId;
